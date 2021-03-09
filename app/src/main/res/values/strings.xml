@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ΒΙΒΛΙΟΠΩΛΕΙΟ</string>
+    <string name="app_name">Week4</string>
     <string name="label_author">Author</string>
     <string name="label_title">Title</string>
     <string name="label_genre">Genre</string>

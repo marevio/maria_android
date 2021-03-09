@@ -1,4 +1,4 @@
-package gr.ihu.ct.week3;
+package gr.ihu.ct.week4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import gr.ihu.ct.week4.classes.DataStore;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        DataStore.Init(getApplicationContext());
 
         textAuthor = (EditText)findViewById(R.id.editTextAuthor);
         textTitle = (EditText)findViewById(R.id.editTextTitle);

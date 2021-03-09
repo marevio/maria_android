@@ -1,4 +1,4 @@
-package gr.ihu.ct.week3;
+package gr.ihu.ct.week4;
 
 import org.junit.Test;
 
